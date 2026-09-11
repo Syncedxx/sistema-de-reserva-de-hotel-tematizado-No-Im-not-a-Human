@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reserva de Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de Reserva de Hotel</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <div class="campos">
+                <label for="txtnomeH">Nome do hóspede:</label>
+                <input type="text" id="txtnomeH">
+            </div>
+
+            <div class="campos">
+                <label for="txttipoQ">Tipo de quarto:</label>
+                <input type="text" id="txttipoQ">
+            </div>
+
+            <div class="campos">
+                <label for="txtquantdadeD">Quantidade de díárias:</label>
+                <input type="number" id="txtquantidadeD">
+            </div>
+
+            <div class="campos">
+                <label for="txtvalorD">Valor da diária:</label>
+                <input type="number" id="txtvalorD">
+            </div>
+
+            <div class="campos">
+                <label for="txtnumeroH">Numero de hóspedes:</label>
+                <input type="number" id="txtnumeroH">
+            </div>
+
+            <div class="campos">
+                <label for="txtdataEntrada">Data de entrada</label>
+                <input type="date" id="txtdataEntrada">
+            </div>
+
+            <div class="campos">
+                <label for="txtdataSaida">Data de saida:</label>
+                <input type="date" id="txtdataSaida">
+            </div>
+            <button onclick="calcularReserva()">Calcular Reserva</button>
+        </div>
+
+        <div id="resumoTotal">
+            <!--Vai ter algo aqui ainda :)-->
+        </div>
+    </main>
+
+    <footer>
+        <div id="final">
+        <p>Aviso: Atividade acadêmica desenvolvida para fins práticos.<br>Estilização tematizada foi inspirada no jogo "No, I'm Not a Human".<br>Todos os direitos da obra original pertencem a Ravenstone Games.</p>
+        <p>Desenvolvido por <a href="https://github.com/Syncedxx">Syncedx</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
